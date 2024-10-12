@@ -182,6 +182,14 @@ jobs:
             target: dev
             platforms: "linux/amd64"
           - label: gz
+            tag: ionic
+            target: base
+            platforms: "linux/amd64"
+          - label: gz
+            tag: ionic
+            target: dev
+            platforms: "linux/amd64"
+          - label: gz
             tag: harmonic
             target: base
             platforms: "linux/amd64"
